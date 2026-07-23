@@ -1,5 +1,6 @@
 import type { IconProps } from '../../types';
 
+// Icon de coração
 export const HeartHandsIcon = ({ className = 'w-6 h-6' }: IconProps) => (
     <svg
         className={className}
@@ -16,6 +17,7 @@ export const HeartHandsIcon = ({ className = 'w-6 h-6' }: IconProps) => (
     </svg>
 );
 
+// Icon de estrela
 export const SparkRewardIcon = ({ className = 'w-6 h-6' }: IconProps) => (
     <svg className={className} viewBox="0 0 24 24" fill="currentColor">
         <path d="M11.23 2.52c.3-.87 1.24-1.28 2.05-.88l1.43.71c.23.11.49.16.74.14l1.58-.11c.92-.06 1.7.53 1.88 1.43l.28 1.39c.04.22.13.43.26.6l1 1.22c.58.7.46 1.74-.27 2.27l-1.28.93c-.19.14-.35.33-.44.55l-.6 1.48c-.35.85-1.32 1.2-2.13.78l-1.42-.74a1.86 1.86 0 0 0-1.74 0l-1.42.74c-.81.42-1.78.07-2.13-.78l-.6-1.48a1.88 1.88 0 0 0-.44-.55l-1.28-.93c-.73-.53-.85-1.57-.27-2.27l1-1.22c.13-.17.22-.38.26-.6l.28-1.39c.18-.9.96-1.49 1.88-1.43l1.58.11c.25.02.51-.03.74-.14l1.43-.71c.81-.4 1.75.01 2.05.88Z" />
@@ -23,6 +25,7 @@ export const SparkRewardIcon = ({ className = 'w-6 h-6' }: IconProps) => (
     </svg>
 );
 
+// Icon de clipboard
 export const ClipboardCheckIcon = ({ className = 'w-6 h-6' }: IconProps) => (
     <svg
         className={className}
@@ -39,6 +42,7 @@ export const ClipboardCheckIcon = ({ className = 'w-6 h-6' }: IconProps) => (
     </svg>
 );
 
+// Icon de link
 export const LinkedPathsIcon = ({ className = 'w-6 h-6' }: IconProps) => (
     <svg
         className={className}
@@ -57,6 +61,7 @@ export const LinkedPathsIcon = ({ className = 'w-6 h-6' }: IconProps) => (
     </svg>
 );
 
+// Icon de escola
 export const SchoolIcon = ({ className = 'w-6 h-6' }: IconProps) => (
     <svg className={className} viewBox="0 0 24 24" fill="currentColor">
         <path d="M22 9 12 4 2 9l10 5 10-5Z" />
@@ -66,6 +71,7 @@ export const SchoolIcon = ({ className = 'w-6 h-6' }: IconProps) => (
     </svg>
 );
 
+// Icon de família
 export const FamilyIcon = ({ className = 'w-6 h-6' }: IconProps) => (
     <svg className={className} viewBox="0 0 24 24" fill="currentColor">
         <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
@@ -75,6 +81,7 @@ export const FamilyIcon = ({ className = 'w-6 h-6' }: IconProps) => (
     </svg>
 );
 
+// Icon de seta
 export const ChevronRightIcon = ({ className = 'w-5 h-5' }: IconProps) => (
     <svg
         className={className}
@@ -89,6 +96,7 @@ export const ChevronRightIcon = ({ className = 'w-5 h-5' }: IconProps) => (
     </svg>
 );
 
+// Icon de estrela
 export const StarIcon = ({ className }: IconProps) => (
     <svg className={className} viewBox="0 0 24 24" fill="currentColor">
         <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
