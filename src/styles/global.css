@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@500;600;700&display=swap');
+
+/* Rolagem suave global para links com âncoras (#) */
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --bg: #FCF6F0;
+    --bg-soft: #EAF3F0;
+    --bg-subtle: #F6F7F7;
+    --card: #FFFFFF;
+    --primary: #1E6B5C;
+    --primary-light: #2F8F76;
+    --teal: #589B8B;
+    --text-dark: #173F37;
+    --text-muted: #6B7A75;
+    --text-faint: #8A968F;
+    --text-card: #4A5A55;
+    --border-soft: #EFE7DC;
+    --disabled: #B9C7C1;
+
+    --font-heading: 'Quicksand', sans-serif;
+    --font-body: 'Atkinson Hyperlegible', sans-serif;
+
+    --shadow-card: 0 8px 14px rgba(23, 63, 55, 0.18);
+    --shadow-btn: 0 10px 16px rgba(30, 107, 92, 0.35);
+    --shadow-sheet: 0 -6px 24px rgba(23, 63, 55, 0.08);
+
+    --grad-primary: linear-gradient(135deg, #2F8F76 0%, #1E6B5C 100%);
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text-dark);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.font-heading {
+    font-family: var(--font-heading);
+}
+
+.font-body {
+    font-family: var(--font-body);
+}
+
+.bg-primary {
+    background-color: var(--primary);
+}
+
+.bg-bg {
+    background-color: var(--bg);
+}
+
+.bg-bgSoft {
+    background-color: var(--bg-soft);
+}
+
+.bg-card {
+    background-color: var(--card);
+}
+
+.text-primary {
+    color: var(--primary);
+}
+
+.text-textDark {
+    color: var(--text-dark);
+}
+
+.text-textMuted {
+    color: var(--text-muted);
+}
+
+.text-textCard {
+    color: var(--text-card);
+}
+
+.border-borderSoft {
+    border-color: var(--border-soft);
+}
+
+.shadow-card {
+    box-shadow: var(--shadow-card);
+}
+
+.shadow-btn {
+    box-shadow: var(--shadow-btn);
+}
+
+.bg-gradPrimary {
+    background: var(--grad-primary);
+}
