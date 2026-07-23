@@ -7,6 +7,7 @@ import { AudienceSplit } from './components/home/AudienceSplit';
 import { FinalCTA } from './components/home/FinalCTA';
 import './styles/global.css';
 
+// Faz o scroll suave aos links internos da página
 export default function App() {
   return (
     <div className="relative w-full min-h-screen bg-bg text-textDark selection:bg-primary/20">

@@ -1,26 +1,21 @@
-# 🧠 Mental Tech - Landing Page
+# 🧠 Mental Tech Landing Page
 
-> Educação pensada para mentes atípicas. Plataforma gamificada desenhada para crianças neurodivergentes.
+Landing page para a Mental Tech, com foco em acessibilidade, linguagem clara e uma experiência visual acolhedora para famílias e escolas.
 
-## 💻 Sobre o Projeto
-O objetivo do projeto é apresentar a solução, seus pilares de gamificação saudável e conectar escolas e famílias através de uma interface acessível e de baixa carga cognitiva.
+## 🚀 Tecnologias
+- React
+- TypeScript
+- Vite
+- Framer Motion
+- Fontsource (tipografias locais)
 
-## 🚀 Tecnologias Utilizadas
-* **React 19**
-* **TypeScript**
-* **Vite**
-* **Framer Motion** (Animações fluidas)
-* **Tailwind CSS** (Estilização)
+## ▶️ Como executar
+1. Instale as dependências:
+   npm install
+2. Inicie o projeto:
+   npm run dev
+3. Abra o endereço exibido no terminal.
 
-## 📂 Estrutura de Pastas
-O projeto segue uma arquitetura modular baseada em componentes:
-* `src/components/`: Componentes isolados (botões, cards, seções da página).
-* `src/styles/`: Variáveis CSS e sistema de design.
-* `src/utils/`: Funções auxiliares (ex: scroll suave).
-* `src/constants/`: Dados estáticos da aplicação.
-
-## 🛠️ Como executar localmente
-
-- **Instale as dependências:** npm install
-
-- **Teste se está tudo funcionando:** npm run dev
+## 🛠️ Scripts
+- npm run dev: inicia o ambiente local
+- npm run build: gera a build de produção
